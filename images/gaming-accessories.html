@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Accessories</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0a0f2c;
+            color: #f0f4f8;
+        }
+        header {
+            background-color: #102865;
+            color: #f0f4f8;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 40px 20px;
+        }
+        .product {
+            background-color: #1a2540;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            margin-bottom: 10px;
+        }
+        .product p {
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+        .product span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .product a {
+            text-decoration: none;
+            color: #f0f4f8;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: #3383e2;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 6px;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .product a:hover {
+            background-color: #296bb3;
+        }
+        footer {
+            background-color: #0a0f2c;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaming Accessories</h1>
+        <p>Top gaming finds for your collection</p>
+    </header>
+
+    <div class="products">
+        <div class="product">
+            <img src="images/gaming1.jpg" alt="Gaming Product 1">
+            <h3>Gaming Mouse</h3>
+            <p>Ergonomic, customizable with high precision.</p>
+            <span>$29.99</span>
+            <a href="https://www.amazon.com/link-to-product1">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming2.jpg" alt="Gaming Product 2">
+            <h3>Gaming Headset</h3>
+            <p>Noise-cancelling, comfortable for long gaming sessions.</p>
+            <span>$49.99</span>
+            <a href="https://www.amazon.com/link-to-product2">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming3.jpg" alt="Gaming Product 3">
+            <h3>Gaming Keyboard</h3>
+            <p>RGB lighting, mechanical switches for a smooth experience.</p>
+            <span>$79.99</span>
+            <a href="https://www.amazon.com/link-to-product3">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming4.jpg" alt="Gaming Product 4">
+            <h3>Gaming Chair</h3>
+            <p>Adjustable, lumbar support for ultimate comfort.</p>
+            <span>$139.99</span>
+            <a href="https://www.amazon.com/link-to-product4">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming5.jpg" alt="Gaming Product 5">
+            <h3>Game Controller</h3>
+            <p>Wireless, compatible with multiple platforms.</p>
+            <span>$39.99</span>
+            <a href="https://www.amazon.com/link-to-product5">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming6.jpg" alt="Gaming Product 6">
+            <h3>Gaming Monitor</h3>
+            <p>144Hz refresh rate for smooth gameplay.</p>
+            <span>$249.99</span>
+            <a href="https://www.amazon.com/link-to-product6">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming7.jpg" alt="Gaming Product 7">
+            <h3>Gaming Laptop Stand</h3>
+            <p>Sturdy, adjustable height to enhance ergonomics.</p>
+            <span>$29.99</span>
+            <a href="https://www.amazon.com/link-to-product7">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming8.jpg" alt="Gaming Product 8">
+            <h3>RGB LED Lights</h3>
+            <p>Perfect for setting up your gaming space.</p>
+            <span>$19.99</span>
+            <a href="https://www.amazon.com/link-to-product8">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming9.jpg" alt="Gaming Product 9">
+            <h3>Gaming Mousepad</h3>
+            <p>Large, non-slip surface for precise mouse movements.</p>
+            <span>$15.99</span>
+            <a href="https://www.amazon.com/link-to-product9">Link</a>
+        </div>
+        <div class="product">
+            <img src="images/gaming10.jpg" alt="Gaming Product 10">
+            <h3>Headset Stand</h3>
+            <p>Stylish, stable design to hold your headset.</p>
+            <span>$14.99</span>
+            <a href="https://www.amazon.com/link-to-product10">Link</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Follow me on Instagram: @yourusername</p>
+    </footer>
+</body>
+</html>

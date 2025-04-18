@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes - Your Amazon Store</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #0a0f2c; color: #f0f4f8; }
+        header { background-color: #102865; color: #f0f4f8; text-align: center; padding: 40px 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        header h1 { font-size: 3rem; margin-bottom: 10px; }
+        header p  { font-size: 1.2rem; }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 40px 20px;
+        }
+        .product {
+            background-color: #1a2540;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .product:hover { transform: scale(1.05); }
+        .product img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 10px; }
+        .product h3 { margin-bottom: 10px; }
+        .product p  { font-size: 1rem; margin-bottom: 10px; }
+        .product .price { font-size: 1.2rem; color: #3383e2; margin-bottom: 15px; }
+        .product a { text-decoration: none; background-color: #3383e2; color: #f0f4f8; padding: 10px 20px; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease; }
+        .product a:hover { background-color: #296bb3; }
+        footer { background-color: #0a0f2c; color: #aaa; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clothes</h1>
+        <p>Discover the latest styles and trends</p>
+    </header>
+
+    <div class="products">
+        <div class="product">
+            <img src="clothes-mentshirt.jpg" alt="Clothes Item 1">
+            <h3>Mens T Shirt</h3>
+            <p>INTO THE AM Mens T Shirt - Short Sleeve Crew Neck Soft Fitted Tees S - 4XL Fresh Classic Tshirts</p>
+            <div class="price">$24.95</div>
+            <a href="https://amzn.to/3RoTL99">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-menecosmart.jpg" alt="Clothes Item 2">
+            <h3>Men's EcoSmart Fleece</h3>
+            <p>Hanes Men's EcoSmart Fleece, Pullover Crewneck Sweatshirt, 1 or 2 Pack</p>
+            <div class="price">$9.99</div>
+            <a href="https://amzn.to/42A68Ej">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-menathletic.jpg" alt="Clothes Item 3">
+            <h3>Men's Athletic Running Shorts</h3>
+            <p>NORTHYARD Men's Athletic Running Shorts Quick Dry Workout Shorts 7"/ 5"/ 9" Lightweight Sports Gym Basketball Tennis Hiking</p>
+            <div class="price">$24.99</div>
+            <a href="https://amzn.to/42GYE2D">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-menfleece.jpg" alt="Clothes Item 4">
+            <h3>Mens' Fleece Joggers</h3>
+            <p>THE GYM PEOPLE Mens' Fleece Joggers Pants with Deep Pockets in Loose-fit Style</p>
+            <div class="price">$28.99</div>
+            <a href="https://amzn.to/4inCqZm">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-menscotton.jpg" alt="Clothes Item 5">
+            <h3> Men's Cotton</h3>
+            <p>Hanes Men's Cotton, Moisture-Wicking Crew Tee Undershirts, Multi-Packs Available</p>
+            <div class="price">$9.98</div>
+            <a href="https://amzn.to/4imW7Aq">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-womenyoga.jpg" alt="Clothes Item 6">
+            <h3>Yoga Pants</h3>
+            <p>THE GYM PEOPLE Thick High Waist Yoga Pants with Pockets, Tummy Control Workout Running Yoga Leggings for Women</p>
+            <div class="price">$24.99</div>
+            <a href="https://amzn.to/3Gqs3X8">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-womenqueen.jpg" alt="Clothes Item 7">
+            <h3>Queen Womens Basic T Shirts</h3>
+            <p>Trendy Queen Womens Basic T Shirts Summer Tops 2025 Crop Short Sleeve Y2k Tee Cute Gym Fashion Workout Clothes</p>
+            <div class="price">$9.99</div>
+            <a href="https://amzn.to/3G98R0e">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-womenshapewear.jpg" alt="Clothes Item 8">
+            <h3>Shapewear for women</h3>
+            <p>SHAPERMINT Shapewear for women - High-Waisted Shapewear Tummy Control Shorts, Faja Body Shaper, Underwear for Women</p>
+            <div class="price">$25.99</div>
+            <a href="https://amzn.to/3GhunA0">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-womentop.jpg" alt="Clothes Item 9">
+            <h3>Womens Summer Tops</h3>
+            <p>Trendy Queen Womens Summer Tops Spring T Shirts Crop Tank Top Fashion Clothes Workout Gym Beach Vacation Outfits 2025</p>
+            <div class="price">$14.99</div>
+            <a href="https://amzn.to/4jEd2j4">Link</a>
+        </div>
+        <div class="product">
+            <img src="clothes-womenflare.jpg" alt="Clothes Item 10">
+            <h3>Flare Leggings</h3>
+            <p>YEOREO Flare Leggings with Pockets for Women Brittany Leggings Workout Leggings for Women Butt Lifting Gym Yoga Leggings</p>
+            <div class="price">$31.99</div>
+            <a href="https://amzn.to/4cBT06p">Link</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Back to <a href="index.html" style="color:#3383e2; text-decoration: underline;">Home</a></p>
+    </footer>
+</body>
+</html>

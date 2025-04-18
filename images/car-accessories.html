@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Accessories</title>
+    <style>
+        body {
+            background-color: #0a0f2c;
+            color: #f0f4f8;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #102865;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .product {
+            background-color: #1a2540;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.03);
+        }
+        .product img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+        .product .price {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .product a {
+            text-decoration: none;
+            background-color: #3383e2;
+            color: #f0f4f8;
+            padding: 10px 15px;
+            border-radius: 6px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .product a:hover {
+            background-color: #296bb3;
+        }
+        footer {
+            background-color: #0a0f2c;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Accessories</h1>
+    </header>
+
+    <div class="products">
+        <div class="product">
+            <img src="car-screen.jpg" alt="Car Product 1">
+            <h3>Wireless Carplay Screen</h3>
+            <p>Portable car stereo supports wireless Carplay & Android Auto. </p>
+            <div class="price">$59.98</div>
+            <a href="https://amzn.to/44rYT3V">Link</a>
+        </div>
+        <div class="product">
+            <img src="air-compressor.jpg" alt="Car Product 2">
+            <h3>Air Compressor</h3>
+            <p>Engineered for drivers & adventurers!</p>
+            <div class="price">$39.99</div>
+            <a href="https://amzn.to/3ECsHAl">Link</a>
+        </div>
+        <div class="product">
+            <img src="usb-c.jpg" alt="Car Product 3">
+            <h3>SUPERONE Retractable USB C Car Charger</h3>
+            <p>SThe SUPERONE 4-in-1 upgraded retractable car charger is 30% more compact than standard retractable car chargers</p>
+            <div class="price">$16.99</div>
+            <a href="https://amzn.to/4jAU38R">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-phone.jpg" alt="Car Product 4">
+            <h3>Car Phone Holder</h3>
+            <p>Car phone holder for all type of phones</p>
+            <div class="price">$39.99</div>
+            <a href="https://amzn.to/3RjHG58">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-led.jpg" alt="Car Product 5">
+            <h3>Car LED Lights</h3>
+            <p>Make your car stand out in unique style with creative freedom and outdoor decorations.</p>
+            <div class="price">$16.99</div>
+            <a href="https://amzn.to/3RSrGqO">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-vacuum.jpg" alt="Car Product 6">
+            <h3>AstroAI Car Vacuum and Accessories</h3>
+            <p>Daily Cleaning for Car: A strong motor and upgraded aluminum fan blades deliver 7500PA of suction power. </p>
+            <div class="price">$24.99</div>
+            <a href="https://amzn.to/42k210y">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-seat.jpg" alt="Car Product 7">
+            <h3>Car Seat Covers</h3>
+            <p>UNIVERSAL FIT FOR MOST AUTOS</p>
+            <div class="price">$26.55</div>
+            <a href="https://amzn.to/42FKSxe">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-cam.jpg" alt="Car Product 8">
+            <h3>Dash Cam Front and Rear</h3>
+            <p>4K+1080P Dual Dash Cam- Pelsee dash cam offers clarity with its single front camera, capturing exquisitely clear 4K videos at 3840*2160P/30fps through 170° wide-angle lens. </p>
+            <div class="price">$89.99</div>
+            <a href="https://amzn.to/42B4rXw">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-air.jpg" alt="Car Product 9">
+            <h3>Smart Car Air Freshener</h3>
+            <p>160ML Car Diffuser Scent Long Lasting 6 Months with 20+ Light Effects RGB Lights and Star Projector, 3 Mode Adjustable Auto On/Off, Natural Essential Oils (Ocean)</p>
+            <div class="price">$35.99</div>
+            <a href="https://amzn.to/4inLRYH">Link</a>
+        </div>
+        <div class="product">
+            <img src="car-trash.jpg" alt="Car Product 10">
+            <h3>Car Trash Can</h3>
+            <p> The car trash bag features an adjustable strap that allows it to be attached on both front and back headrest as well as the center console for easier access for all around.</p>
+            <div class="price">$9.99</div>
+            <a href="https://amzn.to/42vyAqZ">Link</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Back to <a href="index.html" style="color:#3383e2; text-decoration:underline;">Home</a></p>
+    </footer>
+</body>
+</html>
